@@ -1,0 +1,284 @@
+/* ==============================
+   CONTACT SECTION
+   ============================== */
+
+
+.section--contact {
+
+  padding: 100px 20px;
+
+  background: #0b1020;
+
+}
+
+
+
+.section__container {
+
+  max-width: 1200px;
+
+  margin: auto;
+
+}
+
+
+
+.section__title {
+
+  text-align:center;
+
+  color:white;
+
+  font-size:3rem;
+
+  margin-bottom:60px;
+
+}
+
+
+
+/* Main layout */
+
+.contact__content {
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:50px;
+
+  align-items:start;
+
+}
+
+
+
+/* Left side */
+
+.contact__info {
+
+  background:#111827;
+
+  padding:35px;
+
+  border-radius:18px;
+
+  border:1px solid rgba(56,189,248,0.2);
+
+}
+
+
+
+.contact__intro {
+
+  color:#cbd5e1;
+
+  font-size:1.1rem;
+
+  margin-bottom:30px;
+
+  line-height:1.7;
+
+}
+
+
+
+/* Contact details */
+
+.contact__details {
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:20px;
+
+}
+
+
+
+.contact__detail {
+
+  padding:18px;
+
+  background:rgba(56,189,248,0.05);
+
+  border-radius:12px;
+
+  border:1px solid rgba(56,189,248,0.15);
+
+}
+
+
+
+.contact__detail h4 {
+
+  color:#38bdf8;
+
+  margin-bottom:8px;
+
+}
+
+
+
+.contact__detail p,
+
+.contact__detail a {
+
+  color:#cbd5e1;
+
+}
+
+
+
+.contact__detail a:hover {
+
+  color:#38bdf8;
+
+}
+
+
+
+/* Form */
+
+.contact__form {
+
+  background:#111827;
+
+  padding:35px;
+
+  border-radius:18px;
+
+  border:1px solid rgba(56,189,248,0.2);
+
+}
+
+
+
+.contact__form-group {
+
+  display:flex;
+
+  flex-direction:column;
+
+  margin-bottom:20px;
+
+}
+
+
+
+.contact__form-group label {
+
+  color:white;
+
+  margin-bottom:8px;
+
+  font-weight:600;
+
+}
+
+
+
+.contact__form-group input,
+
+.contact__form-group textarea {
+
+  padding:14px;
+
+  background:#0b1020;
+
+  border:1px solid rgba(56,189,248,0.25);
+
+  border-radius:10px;
+
+  color:white;
+
+  outline:none;
+
+  font-family:inherit;
+
+}
+
+
+
+.contact__form-group input:focus,
+
+.contact__form-group textarea:focus {
+
+  border-color:#38bdf8;
+
+  box-shadow:
+
+  0 0 15px rgba(56,189,248,0.2);
+
+}
+
+
+
+/* Button */
+
+.contact__submit-btn {
+
+  width:100%;
+
+  padding:14px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#38bdf8;
+
+  color:#0b1020;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+}
+
+
+
+.contact__submit-btn:hover {
+
+  opacity:.85;
+
+}
+
+
+
+/* Success message */
+
+.contact__success-message {
+
+  margin-top:20px;
+
+  color:#22c55e;
+
+  text-align:center;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:800px){
+
+
+  .contact__content {
+
+    grid-template-columns:1fr;
+
+  }
+
+
+  .section__title {
+
+    font-size:2.2rem;
+
+  }
+
+}

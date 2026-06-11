@@ -1,4 +1,5 @@
 import { useInViewport } from '../../../hooks/useInViewport'
+import './Timeline.css'
 
 export function Timeline() {
   const { ref, hasBeenInViewport } = useInViewport()

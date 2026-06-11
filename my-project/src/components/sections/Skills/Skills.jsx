@@ -1,4 +1,5 @@
 import { useInViewport } from '../../../hooks/useInViewport'
+import './Skills.css'
 
 export function Skills() {
   const { ref, hasBeenInViewport } = useInViewport()

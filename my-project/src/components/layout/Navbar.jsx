@@ -1,3 +1,4 @@
+import './Navbar.css'
 import { useEffect, useState } from 'react'
 import { usePortfolio } from '../../hooks/usePortfolio'
 

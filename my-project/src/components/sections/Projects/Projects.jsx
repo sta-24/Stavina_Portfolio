@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useInViewport } from '../../../hooks/useInViewport'
+import './Projects.css'
 
 export function Projects() {
   const { ref, hasBeenInViewport } = useInViewport()

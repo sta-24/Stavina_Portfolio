@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useFormHandler } from '../../../hooks/useFormHandler'
 import { useInViewport } from '../../../hooks/useInViewport'
+import './Contact.css'
 
 export function Contact() {
   const { ref, hasBeenInViewport } = useInViewport()
